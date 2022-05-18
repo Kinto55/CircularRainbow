@@ -1,0 +1,2 @@
+# CircularRainbow
+1. We create a group element. 2. We create an array of 100 elements. 3. We create a circle element for each element in the array. 4. We set the cx and cy attributes of each circle element to 0. 5. We set the fill style of each circle element to a color based on the index of the element. 6. We execute the animateEachCircle function for each element in the array. 7. We start the animation chain. */
