@@ -1,2 +1,7 @@
 # CircularRainbow
-1. We create a group element. 2. We create an array of 100 elements. 3. We create a circle element for each element in the array. 4. We set the cx and cy attributes of each circle element to 0. 5. We set the fill style of each circle element to a color based on the index of the element. 6. We execute the animateEachCircle function for each element in the array. 7. We start the animation chain. */
+The code starts by creating a group element with the el attribute set to "group".
+ The transform property of this group is translated by half the width and height of the renderer.
+ This creates a rectangle that will be used as an outer container for all other elements.
+ The next step in the code is to create 100 circles, each with a radius of 5 pixels, using i2d's chain method.
+ Each circle has its own animation function which loops through 100 times and then calls animateEachCircle().
+ The code is a simple example of how to animate an SVG group.
